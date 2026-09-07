@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://server-obkmgogm8-varun-nalamasu.vercel.app/api',
 });
 
 // Interceptor to attach Authorization Bearer token
